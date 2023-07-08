@@ -94,7 +94,7 @@
 }
 
 .banner-description-text {
-   color: var(--text-gray);
+  color: var(--text-gray);
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
@@ -115,27 +115,68 @@
 }
 
 .btn-download-cv {
-   width: 200px;
+  width: 200px;
   height: 64px;
-
 }
 
 .btn-contact {
-   background-color: transparent;
-   color: var(--text-orange);
-   border: 1px solid var(--text-orange);
-   margin-left: 30px;
+  background-color: transparent;
+  color: var(--text-orange);
+  border: 1px solid var(--text-orange);
+  margin-left: 30px;
 }
 
 .dev-img {
-   position: absolute;
-   top: 40px;
-   left: 30px;
+  position: absolute;
+  top: 40px;
+  left: 30px;
 }
-/* Header Complete */
-
+/* Header Complete Body --> container start*/
+.body-container {
+  max-width: 1200px;
+  margin: auto;
+}
 /* About Section */
+.about-container {
+  margin: 100px auto;
+  height: 550px;
+  background-color: var(--content-background);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
- 
+.about-title {
+  color: var(--bold-text);
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.about-desciption {
+  font-size: 18px;
+  color: var(--text-gray);
+  max-width: 900px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.biodata-cointainer {
+  display: flex;
+  gap: 50px;
+  text-align: center;
+}
+.personal-info{
+  font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+}
+.personal-info span {
+  color: var(--text-gray);
+}
+
+/* My Qualification */
 
 
