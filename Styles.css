@@ -1,0 +1,141 @@
+:root {
+  --content-background: #fff8f3;
+  --button-background: #fd6e0a;
+  --text-orange: #fd6e0a;
+  --text-white: #ffffff;
+  --text-gray: #474747;
+  --bold-text: #181818;
+  --font: "Open Sans", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font);
+}
+
+/* ***** Header Stayle ******** */
+
+/* Navigation menu */
+
+.header {
+  width: 100wh;
+  background-color: var(--content-background);
+}
+
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 230px;
+  padding: 50px 0;
+}
+
+.text-logo {
+  color: var(--bold-text);
+  font-size: 45px;
+  font-weight: 800;
+}
+
+.text-orange {
+  color: var(--text-orange);
+}
+
+.navigation-menu {
+  display: flex;
+  align-items: center;
+}
+
+.navigation-menu > li {
+  list-style: none;
+  margin: 0 25px;
+}
+
+.navigation-menu > li > a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--text-gray);
+}
+
+.btn-primary {
+  /* padding: 16px 35px; */
+  text-align: center;
+  width: 150px;
+  height: 64px;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: var(--button-background);
+  color: var(--text-white);
+  border: none;
+  border-radius: 5px;
+}
+
+/* Banner Section */
+.banner {
+  background-image: url("./images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 800px auto;
+}
+.greeting-text {
+  color: var(--text-gray);
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.banner-title-text {
+  color: var(--text-gray);
+  font-size: 85px;
+  font-weight: 700;
+  line-height: 90px;
+  margin-bottom: 20px;
+}
+
+.banner-description-text {
+   color: var(--text-gray);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 600px;
+  margin-bottom: 20px;
+}
+
+.banner-content {
+  margin: 0 40px 0 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile-image {
+  width: 584px;
+  height: 676px;
+}
+
+.btn-download-cv {
+   width: 200px;
+  height: 64px;
+
+}
+
+.btn-contact {
+   background-color: transparent;
+   color: var(--text-orange);
+   border: 1px solid var(--text-orange);
+   margin-left: 30px;
+}
+
+.dev-img {
+   position: absolute;
+   top: 40px;
+   left: 30px;
+}
+/* Header Complete */
+
+/* About Section */
+
+ 
+
+
