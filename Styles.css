@@ -107,7 +107,7 @@
 }
 
 .banner-content {
-  margin: 300px 40px 0 230px;
+  margin: 90px 40px 0 230px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -131,7 +131,7 @@
 }
 
 .dev-img {
-  width: 140px;
+  width: 110px;
   position: absolute;
   top: 40px;
   left: 40px;
