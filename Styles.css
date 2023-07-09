@@ -4,6 +4,7 @@
   --text-orange: #fd6e0a;
   --text-white: #ffffff;
   --text-gray: #474747;
+  --text-gray2: #757575;
   --bold-text: #181818;
   --font: "Open Sans", sans-serif;
 }
@@ -13,6 +14,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: var(--font);
+  scroll-snap-stop: always;
 }
 
 /* ***** Header Stayle ******** */
@@ -20,7 +22,8 @@
 /* Navigation menu */
 
 .header {
-  width: 100wh;
+  width: 100vw;
+  /* height: 100vh; */
   background-color: var(--content-background);
 }
 
@@ -45,11 +48,12 @@
 .navigation-menu {
   display: flex;
   align-items: center;
+  gap: 25px;
 }
 
 .navigation-menu > li {
   list-style: none;
-  margin: 0 25px;
+  /* margin: 0 25px; */
 }
 
 .navigation-menu > li > a {
@@ -74,6 +78,7 @@
 
 /* Banner Section */
 .banner {
+  height: 100;
   background-image: url("./images/header_bg.png");
   background-repeat: no-repeat;
   background-position: bottom right;
@@ -231,4 +236,120 @@
 
 /* My Resume */
 
+.resume-container {
+  margin-bottom: 100px;
+}
 
+.resume-title {
+  color: var(--bold-text);
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 110px;
+}
+
+.resume-data-container {
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+.resume-left,
+.resume-right {
+  max-width: 575px;
+}
+
+.resume-left-title,
+.resume-right-title {
+  color: var(--text-gray);
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.degree-title,
+.Job-title {
+  color: var(--text-gray);
+  margin-bottom: 10px;
+  font-size: 25px;
+  font-weight: 700;
+}
+.institute-name,
+.Company-name {
+  color: var(--text-gray2);
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.degree-info,
+.Company-info {
+  color: var(--text-gray2);
+  margin-bottom: 30px;
+  /* width: 515px; */
+  font-size: 16px;
+}
+
+.resume-box-cointainer > hr {
+  border: 1px solid #d1d1d1;
+  margin-bottom: 30px;
+}
+
+.btn-download {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Footer section */
+
+.footer {
+  background-color: var(--content-background);
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 100px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-title {
+  color: var(--bold-text);
+  margin-bottom: 20px;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.contact-info-container {
+  max-width: 575px;
+}
+.social-media-icons {
+  margin-top: 30px;
+  margin-right: 25px;
+}
+.social-media-icons > img {
+  margin-right: 25px;
+}
+
+/* Contact Form  */
+.contact-form > input {
+  width: 480px;
+  height: 65px;
+  margin-bottom: 25px;
+  border: none;
+  padding-left: 20px;
+  box-shadow: 6px 6px 50px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+.contact-form > textarea {
+  width: 480px;
+  height: 200px;
+  margin-bottom: 25px;
+  border: none;
+  padding: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--text-gray2);
+  box-shadow: 6px 6px 50px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
